@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title></title>
+    <script src="https://use.fontawesome.com/4e8f121e51.js"></script>
+    <link rel="stylesheet" href="/css/app.css"/>
+    <link rel="stylesheet" href="/css/normalize.css"/>
+  </head>
+  <body class="login">
+    <div class="contenedor-formulario">
+      <h1>Login Uptask  </h1>
+      <form class="caja caja-login" id="formulario" method="POST" action="/iniciar-sesion">
+        <div class="campo">
+          <label for="email">E-mail:</label>
+          <input type="text" name="email" placeholder="Your Email"/>
+        </div>
+        <div class="campo">
+          <label for="passord">Password:</label>
+          <input type="password" name="password" placeholder="Your Password"/>
+        </div>
+        <div class="campo enviar">
+          <input class="boton" type="submit" value="Log in"/>
+        </div>
+        <div class="campo"><a href="/crear-cuenta">Register</a></div>
+        <div class="campo"><a href="/restablecer">Did you forget your password?</a></div>
+      </form>
+    </div>
+  </body>
+</html>
